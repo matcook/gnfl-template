@@ -1,0 +1,14 @@
+{
+  "name": "gnfl-template",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "postcss-mixins": "^7.0.3",
+    "postcss-nested": "^5.0.5",
+    "vite": "^2.2.3"
+  }
+}
