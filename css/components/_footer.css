@@ -1,0 +1,11 @@
+.footer {
+  background: var(--red);
+  color: white;
+  /* MIGHT CHANGE BELOW */
+  height: var(--navbar-height);
+  display: flex;
+  justify-content: center;
+  p {
+    line-height: var(--navbar-height);
+  }
+}

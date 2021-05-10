@@ -1,0 +1,7 @@
+.news-card {
+  border: 1px solid black;
+  padding-bottom: 20px;
+  height: 100px;
+  /* MAYBE DELETE BELOW */
+  margin-bottom: 20px;
+}

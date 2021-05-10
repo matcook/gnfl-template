@@ -3,6 +3,7 @@ table {
   text-align: left;
   thead {
     background: var(--red);
+    color: white;
   }
   tbody {
     tr {
