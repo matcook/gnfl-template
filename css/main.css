@@ -14,6 +14,7 @@
 
 /* OBJECTS */
 @import './objects/_container.css';
+@import './objects/_content.css';
 
 /* COMPONENTS */
 @import './components/_navbar.css';
@@ -22,5 +23,5 @@
 @import './components/_match-card.css';
 @import './components/_news-card.css';
 @import './components/_footer.css';
-
+@import './components/_gallery.css';
 /* UTILITIES */

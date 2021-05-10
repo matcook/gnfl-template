@@ -2,10 +2,10 @@
   background: var(--red);
   color: white;
   /* MIGHT CHANGE BELOW */
-  height: var(--navbar-height);
+  height: var(--footer-height);
   display: flex;
   justify-content: center;
   p {
-    line-height: var(--navbar-height);
+    line-height: var(--footer-height);
   }
 }
