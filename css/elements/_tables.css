@@ -1,0 +1,21 @@
+table {
+  border-spacing: 0;
+  text-align: left;
+  thead {
+    background: var(--red);
+  }
+  tbody {
+    tr {
+      &:nth-child(odd) {
+        background: var(--white);
+      }
+      &:nth-child(even) {
+        background: var(--light-grey);
+      }
+    }
+  }
+  td,
+  th {
+    padding: 5px 5px;
+  }
+}

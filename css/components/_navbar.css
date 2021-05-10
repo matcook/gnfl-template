@@ -43,6 +43,7 @@
     img {
       max-height: var(--navbar-height);
       padding: 5px 0;
+      display: block;
     }
   }
 }
