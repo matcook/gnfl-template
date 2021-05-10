@@ -1,3 +1,3 @@
 module.exports = {
-  plugins: [require('postcss-nested'), require('postcss-mixins')],
+  plugins: [require('postcss-mixins'), require('postcss-nested')],
 };

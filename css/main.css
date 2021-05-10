@@ -1,1 +1,19 @@
-@import '_variables.css';
+/* SETTINGS */
+@import './settings/_variables.css';
+
+/* TOOLS */
+@import './tools/_mixins.css';
+
+/* GENERIC */
+@import './generic/_reset.css';
+
+/* ELEMENTS */
+@import './elements/_links.css';
+
+/* OBJECTS */
+@import './objects/_container.css';
+
+/* COMPONENTS */
+@import './components/_navbar.css';
+
+/* UTILITIES */
