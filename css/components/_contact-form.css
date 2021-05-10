@@ -1,0 +1,22 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-right: 20px;
+  width: 100%;
+
+  label {
+    padding-bottom: 10px;
+    color: var(--blue);
+  }
+  input {
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+
+  textarea {
+    /* MIGHT NEED CHANGING */
+    height: 200px;
+  }
+  margin-bottom: 20px;
+}

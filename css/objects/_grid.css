@@ -1,0 +1,22 @@
+/* Should make this more generic and re-use in match centre */
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  .contact-form {
+    @mixin small {
+      flex: 3;
+    }
+  }
+
+  .contact-details {
+    border: 1px solid black;
+    width: 100%;
+    height: 120px;
+
+    @mixin small {
+      flex: 2;
+    }
+  }
+}
