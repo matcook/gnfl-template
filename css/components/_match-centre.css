@@ -1,5 +1,5 @@
 .match-centre {
-  background: darkblue;
+  background: var(--blue);
   h2,
   h3 {
     color: white;
