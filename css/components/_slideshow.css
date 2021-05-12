@@ -1,8 +1,16 @@
 .hero-slider {
-  img {
-    display: block;
-    max-height: 600px;
+  position: relative;
+  height: 600px;
+  .slide-image {
+    position: absolute;
+    height: 100%;
     width: 100%;
+    opacity: 0;
     object-fit: cover;
+    transition: opacity 1s linear;
+  }
+
+  .is-visible {
+    opacity: 100%;
   }
 }
