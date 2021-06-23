@@ -1,4 +1,0 @@
-.content {
-  /* NEEDS FIXING */
-  min-height: calc(100vh - var(--footer-height) - 172px);
-}

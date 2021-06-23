@@ -8,24 +8,12 @@
 @import './generic/_reset.css';
 
 /* ELEMENTS */
-@import './elements/_links.css';
-@import './elements/_headings.css';
-@import './elements/_tables.css';
-@import './elements/_inputs.css';
+@import './elements/_link.css';
 
 /* OBJECTS */
 @import './objects/_container.css';
-@import './objects/_content.css';
-@import './objects/_grid.css';
 
 /* COMPONENTS */
-@import './components/_navbar.css';
-@import './components/_slideshow.css';
-@import './components/_match-centre.css';
-@import './components/_match-card.css';
-@import './components/_news-card.css';
-@import './components/_footer.css';
-@import './components/_gallery.css';
-@import './components/_contact-form.css';
-@import './components/_carousel.css';
+@import './components/_nav.css';
+
 /* UTILITIES */

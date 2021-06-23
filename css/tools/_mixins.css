@@ -1,11 +1,2 @@
-@define-mixin small {
-  @media (min-width: 576px) {
-    @mixin-content;
-  }
-}
-
-@define-mixin medium {
-  @media (min-width: 1024px) {
-    @mixin-content;
-  }
-}
+@custom-media --md (width >= 640px);
+@custom-media --lg (width >= 1024px);
