@@ -1,0 +1,19 @@
+.match-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border-top: 7px solid var(--red);
+  box-shadow: var(--box-shadow);
+  p {
+    padding: 5px;
+    text-align: center;
+  }
+  .logo {
+    padding: 10px 20px;
+    img {
+      border-radius: 50%;
+      width: 100px;
+    }
+  }
+}

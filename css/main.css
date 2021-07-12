@@ -10,11 +10,15 @@
 /* ELEMENTS */
 @import './elements/_link.css';
 @import './elements/_header.css';
+@import './elements/_table.css';
 
 /* OBJECTS */
 @import './objects/_container.css';
+@import './objects/_grid.css';
 
 /* COMPONENTS */
 @import './components/_navbar.css';
+@import './components/_match-centre.css';
+@import './components/_match-card.css';
 
 /* UTILITIES */
