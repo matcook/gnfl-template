@@ -9,11 +9,12 @@
 
 /* ELEMENTS */
 @import './elements/_link.css';
+@import './elements/_header.css';
 
 /* OBJECTS */
 @import './objects/_container.css';
 
 /* COMPONENTS */
-@import './components/_nav.css';
+@import './components/_navbar.css';
 
 /* UTILITIES */

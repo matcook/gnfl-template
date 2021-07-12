@@ -1,9 +1,0 @@
-nav {
-  background: var(--red, red);
-  display: flex;
-  justify-content: space-between;
-  li {
-    color: white;
-    list-style-type: none;
-  }
-}

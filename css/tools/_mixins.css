@@ -1,2 +1,11 @@
-@custom-media --md (width >= 640px);
-@custom-media --lg (width >= 1024px);
+@define-mixin small {
+  @media (max-width: 768px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin medium {
+  @media (max-width: 1024px) {
+    @mixin-content;
+  }
+}
