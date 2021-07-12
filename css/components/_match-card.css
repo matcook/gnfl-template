@@ -5,6 +5,7 @@
   background: white;
   border-top: 7px solid var(--red);
   box-shadow: var(--box-shadow);
+  margin-bottom: 20px;
   p {
     padding: 5px;
     text-align: center;
@@ -14,6 +15,12 @@
     img {
       border-radius: 50%;
       width: 100px;
+    }
+  }
+
+  &.upcoming {
+    .score {
+      display: none;
     }
   }
 }
