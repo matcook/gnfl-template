@@ -11,6 +11,7 @@
 @import './elements/_link.css';
 @import './elements/_header.css';
 @import './elements/_table.css';
+@import './elements/_headings.css';
 
 /* OBJECTS */
 @import './objects/_container.css';
