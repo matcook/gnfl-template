@@ -21,5 +21,6 @@
 @import './components/_navbar.css';
 @import './components/_match-centre.css';
 @import './components/_match-card.css';
+@import './components/_news-card.css';
 
 /* UTILITIES */

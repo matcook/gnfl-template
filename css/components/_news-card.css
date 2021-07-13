@@ -1,0 +1,20 @@
+.news-card {
+  box-shadow: var(--box-shadow);
+  margin-bottom: 20px;
+  > div:not(:first-of-type) {
+    padding: 10px;
+  }
+
+  &--image {
+    img {
+      object-fit: cover;
+      height: 200px;
+      width: 100%;
+    }
+  }
+
+  &--footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
